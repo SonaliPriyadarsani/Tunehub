@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+
+fieldset {
+  border-bottom: 3px solid DarkSlateGrey;
+    border-top: 3px solid DarkSlateGrey;
+    border-right: 3px solid DarkSlateGrey;
+    border-left: 3px solid DarkSlateGrey;
+  height: auto;
+  width: auto;
+  padding-left : 20px;
+  padding-right : 20px ;
+  padding-top : 20px;
+  padding-bottom : 20px;
+  background-size: cover;
+  background-position: center;
+      font-size: 1.225rem;
+  
+}
+.check {
+	      font-size: 1.225rem;
+	padding-left : 19%;
+	color : Cornsilk;
+}
+.playlist-name {
+	color:  DarkTurquoise;
+}
+body {
+  position: absulate;
+  height: 100%;
+  width: 60%;
+  padding-left : 20%;
+  padding-top : 90px;
+  padding-right : 100px;
+  background-image:   url(https://tse2.mm.bing.net/th?id=OIP.Xmht-jv-n6L93F6X7xnc8gHaE7&pid=Api&P=0&h=22);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  margin-top: 0.56rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+.submit-button{
+  cursor: pointer;
+    margin-left: 200px;
+    border: 1px solid DarkTurquoise;
+	 height : 20px;
+	   justify-content: flex-end;
+	 width : 20%;
+	 color: DarkTurquoise;
+	 background: Lavender;
+    
+}

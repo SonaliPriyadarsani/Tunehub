@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+.navbar {
+	display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  height: 5rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background : AliceBlue;
+    border-bottom: 3px solid DarkTurquoise;
+}
+.navbar h1 {
+	color: DarkTurquoise;
+	margin-left: 0;
+	margin-top: 20px;
+font-family: 'Protest Revolution', sans-serif;
+	    font-size: 40px;
+
+}
+.logo {
+	margin-right: 85%;
+	
+}
+.addsong
+{
+  padding : 30px;
+  min-width : 0px;
+  height : 100px;
+  position: fixed;
+      line-height: 20px;
+      Margin-top : 30px;
+      margin-left : -40px;
+        display: block;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.viewsong {
+	padding : 30px;
+  max-width: 550px;
+  min-width : 200px;
+  height : 100px;
+  position: fixed;
+      line-height: 10px;
+      Margin-top :40px;
+      margin-left : 830px;
+        display: block;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.createplaylist {
+	padding : 30px;
+  position: fixed;
+      line-height: 20px;
+      Margin-top : 300px;
+      margin-left : -40px;
+        display: block;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.viewplaylist {
+	padding : 30px;
+  position: fixed;
+      line-height: 20px;
+      Margin-top : 300px;
+      margin-left : 830px;
+        display: block;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img {
+	min-width: 150px;
+	height : 150px;
+	    display: block;
+	  background-position: center;
+	 background-size: cover;
+	    position: fixed;
+}
+h1 {
+	margin : -30px;
+	padding-bottom : 35px;
+	padding-left: 70px;
+	font-size: 20px;
+	color : CornflowerBlue;
+}
+
+video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+    }
+body {
+	 font-family: sans-serif;
+     padding: auto;
+     text-align: center;
+     margin: 3.625rem;
+}

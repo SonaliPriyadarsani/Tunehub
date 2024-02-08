@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+video {
+	position: absolute;
+	right: 0;
+	bottom: 0%;
+	z-index: -1;
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  height: 5rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background : CadetBlue;
+    border-bottom: 3px solid DarkTurquoise;
+}
+ul {
+	display: flex;
+	  justify-content: flex-end;
+	list-style: none;
+	font-size: 50px;
+	position: absolute;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+ul li a {
+	margin-inline: 15px;
+	margin-right: 20px;
+		text-decoration: none;
+	
+}
+a:visited {
+  color : IndianRed;
+}
+button {
+	 border: 1px solid DarkTurquoise;
+	 height : 30px;
+	   justify-content: flex-end;
+	 width : 70%;
+	 border-radius : 0.956rem;
+	 color: DarkTurquoise;
+	 background: Lavender;
+ }
+button:hover {
+  color: IndianRed;
+}
+.navbar h1 {
+	color: DarkTurquoise;
+	margin-left: 0;
+	margin-top: 20px;
+font-family: 'Protest Revolution', sans-serif;
+}
+.logo {
+	margin-right: 85%;
+}
+.container {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 70px auto;
+  padding: 30px 0px;
+}
+.container img {
+	width: 100%;
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.container::after {
+  content: "";
+  width: 350px;
+}

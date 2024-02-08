@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="addNewSong.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Add Song</title>
+</head>
+<body>
+<div class="container">
+<form action="addSong" method="post" id="survey-form" >
+ <div class="form-group">
+<label id="name-label" for="name">Song Name : </label>
+<input type="text" name="name" id="name"
+            class="form-control"
+            placeholder="Enter Song Name"
+            required/>
+</div>
+<div class="form-group" >
+<label id="Artistname-label" for="name">Artist Name : </label>
+<input type="text" name="artist" id="artist"
+            class="form-control"
+            placeholder="Enter Artist Name"
+            required />
+</div>
+<div class="form-group" >
+<label id="Genre-label" for="genre" >Song Genre : </label>
+<input type="text" name="genre" id="genre"
+            class="form-control"
+            placeholder="Enter Song Genre"
+            required />
+</div>
+<div class="form-group" >
+<label id="song-link" for="link" >Song Link : </label>
+<input type="text" name="link" id="link"
+            class="form-control"
+            placeholder="Enter Song Link"
+            required />
+</div>
+<div class="form-group">
+<input type ="submit" value="Add Song" class="submit-button" />
+</div>
+</form>
+</div>
+</body>
+</html>

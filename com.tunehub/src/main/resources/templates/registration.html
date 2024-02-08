@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="ISO-8859-1">
+       <link rel="stylesheet" href="registration.css" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
+   <title>Register</title>
+  </head>
+  <body>
+  <div>
+  <video autoplay muted loop>
+      <source src="https://github.com/SonaliPriyadarsani/AudioFiiles/raw/main/Abstract_strings_blue_and_red.mp4" type="video/mp4">
+    </video>
+  </div>
+   <div class="container">
+      <main>
+      <section>
+      <form id="survey-form" action="registration" method="post">
+        <div class="form-group">
+          <label id="name-label" for="name">User Name </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+         <label id="password-label" for="password" >Password </label>
+     <input type="password" name="password" id="password" class="form-control" placeholder="Password" required />
+     </div>
+
+        <div class="form-group">
+          <p>Gender</p>
+          <label>
+            <input
+              name="gender"
+              value="Male"
+              type="radio"
+              class="input-radio"
+            />Male</label
+          >
+          <label>
+            <input
+              name="gender"
+              value="Female"
+              type="radio"
+              class="input-radio"
+            />Female</label
+          >
+
+          <label
+            ><input
+              name="gender"
+              value="Other"
+              type="radio"
+              class="input-radio"
+            />Other</label
+          >
+        </div>
+      <div class="form-group">
+          <p>Role</p>
+      <label><input type="radio" name="role" value="admin" class="input-radio"/>Admin</label>
+     <label> <input type="radio" name="role" value="customer" class="input-radio" />Customer</label>
+     
+     </div>
+     <div class="form-group">
+         <p>Address</p>
+     <label><textarea name="address" id="address"
+            class="input-textarea"
+            placeholder="Enter your Address here..."></textarea>
+      </label>
+     </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+      </section>
+      </main>
+    </div>
+  </body>
+ </html>

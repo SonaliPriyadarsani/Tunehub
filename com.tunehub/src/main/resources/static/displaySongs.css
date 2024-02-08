@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+table {
+    width: 100%;
+    margin: 20px auto;
+    border: 2px solid BurlyWood;
+     border-collapse: collapse;
+     background-image: url(https://tse1.mm.bing.net/th?id=OIP.aRnffMVBrrrsh16pJ1De_AHaE8&pid=Api&P=0&h=220);
+            background-size: cover; 
+            background-repeat: no-repeat;
+}
+
+th, td {
+    width: 10%;
+    border: 1px solid BurlyWood;
+    padding: 5px;
+    text-align: center;
+    color: MintCream;
+    font-family : Arial, sans-serif;
+}
+    th {
+        background-color: BurlyWood;
+    }
+td:hover {
+    background-color: #f5f5f5;
+}
